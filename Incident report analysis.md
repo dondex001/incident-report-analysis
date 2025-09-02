@@ -1,0 +1,15 @@
+**Incident report analysis**
+
+| Summary | The company experienced a two-hour DDoS attack caused by a flood of ICMP packets entering through an unconfigured firewall. The incident disrupted internal services and revealed weaknesses in firewall configuration and traffic monitoring. In response, the security team blocked ICMP traffic, shut down non-critical services, and restored essential operations. After the event, they implemented firewall rules to limit ICMP traffic, enabled source IP verification, deployed network monitoring, and installed an IDS/IPS system. The recovery phase included updating incident response playbooks and training staff. Overall, the incident strengthened the company’s security posture by improving detection, response, and resilience against future DDoS attacks. |  |  |
+| :---- | :---- | ----- | ----- |
+| Identify | The organization was hit by a Distributed Denial of Service (DDoS) attack that overwhelmed the network with ICMP packets. The attack entered through an unconfigured firewall, which allowed unrestricted traffic. This resulted in two hours of downtime across internal services, including web design, graphic design, and social media platforms. The main issue identified was a firewall misconfiguration combined with the absence of proactive monitoring for unusual traffic activity. |  |  |
+| Protect | **The attack highlighted that the firewall was not properly configured to handle ICMP traffic. To strengthen defenses, a new firewall rule was created to limit the rate of incoming ICMP packets, and source IP verification was enabled to filter out spoofed addresses. During the incident, non-critical services were taken offline to reduce strain on the network and ensure that critical services could be prioritized.** |  |  |
+| Detect | The incident showed that no alerts were raised before the disruption occurred, meaning the attack was only recognized once systems went down. To close this gap, the organization implemented network monitoring software to detect abnormal traffic flows and installed an IDS/IPS system to identify and filter suspicious ICMP activity before it could cause damage. |  |  |
+| Respond | When the attack was detected, the incident response team acted by blocking incoming ICMP traffic at the firewall. They also shut down non-critical services to stabilize the network and restored critical operations once the attack was under control. Although these actions successfully stopped the attack, the response was reactive, underscoring the need for proactive detection and automated mitigation measures. |  |  |
+| Recover | Recovery focused on bringing critical services back online and reviewing firewall and network security configurations to prevent similar attacks. The cybersecurity team also updated the incident response playbook to include DDoS scenarios, trained staff on early indicators of such attacks, and strengthened overall resilience. These improvements positioned the company to respond more effectively to future threats. |  |  |
+
+---
+
+| Reflections/Notes: |
+| :---- |
+
