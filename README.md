@@ -11,7 +11,7 @@ This project provides a cybersecurity incident analysis of a Distributed Denial 
 - **Recover:** Updated configurations, improved incident response playbooks, and trained staff.  
 
 ## 📄 Full Report  
-See the full analysis in [DDoS_Incident_Analysis.md](./DDoS_Incident_Analysis.md)  
+Read the full analysis here: [Incident Report Analysis](./incident_report_analysis.md)
 
 ## 🚀 Key Skills Demonstrated  
 - Applying NIST CSF to real-world incidents  
